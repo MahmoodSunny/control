@@ -1,0 +1,8 @@
+[Unit]
+Description=Pi Control
+
+[Service]
+ExecStart=/usr/bin/python /home/mahmood/web/piapp/app.py
+
+[Install]
+WantedBy=multi-user.target
